@@ -1,17 +1,16 @@
 ## **📜 1. Complete README for AZ204-Learning Repo**
 
-```md
+
 # AZ204-Learning 🚀
 
 This repository serves as my learning space for the **AZ-204: Developing Solutions for Microsoft Azure** certification. It contains multiple projects related to Azure development, including .NET Web APIs, Docker, SQL Server, Event Grid, and more.
 
 Each project is stored in its own subfolder and follows its own setup and deployment process.
 
----
 
 ## 📂 Project Structure
 
-```
+```md
 AZ204-Learning/
 │── MyWebApiApp/        # .NET Web API deployed on Azure with ACR
 │── AnotherProject/     # Future projects will be added here
@@ -20,7 +19,6 @@ AZ204-Learning/
 │── README.md           # This documentation
 ```
 
----
 
 ## 🔥 Current Project: **MyWebApiApp**
 📌 **Overview:** This is a .NET Web API that is deployed on **Azure using Azure Container Registry (ACR)**.
@@ -44,12 +42,12 @@ AZ204-Learning/
    ```
 5. The API should now be running at `http://localhost:5000`.
 
----
+
 
 ### 🏗️ Deployment to Azure with ACR
 This project is deployed using **Azure Container Registry (ACR)**. Follow the detailed steps in the [blog post](https://blog.miguelchavezweb.com/posts/from-confusion-to-clarity---deploying-a-.net-web-api-on-azure-with-acr/).
 
----
+
 
 ## 🎯 Future Projects
 This repository will be expanded to include:
@@ -59,7 +57,7 @@ This repository will be expanded to include:
 ✅ **Security & Authentication (Azure AD, Managed Identities)**  
 ✅ **More AZ-204 topics...**
 
----
+
 
 ## 🛠️ Adding a New Project
 To add a new project:
@@ -84,11 +82,7 @@ To add a new project:
    git push origin main
    ```
 
----
-
 ## 📢 Contributing
 This repository is for personal learning, and I will be adding new projects over time based on AZ-204 topics.
 
 If you have suggestions or improvements, feel free to open an issue or message me.
-
----
