@@ -1,0 +1,14 @@
+{"StudentId":"12345", "CourseId":"CSE101", "Grade":"A"}
+
+{
+  "id": "'$(uuidgen)'",
+  "eventType": "Grade.Posted",
+  "subject": "Grade.Posted",
+  "eventTime": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'",
+  "data": {
+    "StudentId": "12345",
+    "CourseId": "CSE101",
+    "Grade": "A"
+  },
+  "dataVersion": "1.0"
+}
