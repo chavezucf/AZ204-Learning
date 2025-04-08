@@ -1,0 +1,9 @@
+{
+  "environment": { "value": "dev" },
+  "location": { "value": "eastus" },
+  "appName": { "value": "my-webapi-app-sb" },
+  "imageName": { "value": "mywebapiapp" },
+  "imageTag": { "value": "v1" },
+  "acrName": { "value": "mywebapiacrsb" },
+  "skuName": { "value": "B1" }
+}
