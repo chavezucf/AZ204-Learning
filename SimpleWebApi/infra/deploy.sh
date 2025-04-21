@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define variables
-RESOURCE_GROUP="1-3370c829-playground-sandbox"
-LOCATION="westus"
+RESOURCE_GROUP="1-cc556ad2-playground-sandbox"
+LOCATION="eastus"
 DEPLOYMENT_NAME="simple-web-api-deployment"
 
 echo "🛠️ Creating resource group: $RESOURCE_GROUP"

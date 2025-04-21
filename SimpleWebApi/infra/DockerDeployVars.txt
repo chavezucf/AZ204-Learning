@@ -1,0 +1,14 @@
+# Azure Container Registry (ACR)
+ACR_NAME="mywebapiacrsb"
+ACR_LOGIN_SERVER="$ACR_NAME.azurecr.io"
+
+# Docker Image Details
+IMAGE_NAME="mywebapiapp"
+IMAGE_TAG="v1"
+
+
+docker build \
+-f ./Dockerfile \
+-t $ACR_LOGIN_SERVER/$IMAGE_NAME:$IMAGE_TAG .
+
+docker push $ACR_LOGIN_SERVER/$IMAGE_NAME:$IMAGE_TAG
